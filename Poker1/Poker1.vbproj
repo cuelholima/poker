@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{129B4A1D-7B3C-4F0D-8C01-907E37380227}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>P0KeR.My.MyApplication</StartupObject>
+    <RootNamespace>P0KeR</RootNamespace>
+    <AssemblyName>P0KeR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>icone.png.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>P0KeR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>P0KeR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cadastro.Designer.vb">
+      <DependentUpon>cadastro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cadastro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="carlos.Designer.vb">
+      <DependentUpon>carlos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="carlos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cartas.Designer.vb">
+      <DependentUpon>cartas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cartas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flavio.Designer.vb">
+      <DependentUpon>flavio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="flavio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="guilherme.Designer.vb">
+      <DependentUpon>guilherme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="guilherme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.vb">
+      <DependentUpon>login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="matheus.Designer.vb">
+      <DependentUpon>matheus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="matheus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="resultado.Designer.vb">
+      <DependentUpon>resultado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="resultado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cadastro.resx">
+      <DependentUpon>cadastro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="carlos.resx">
+      <DependentUpon>carlos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cartas.resx">
+      <DependentUpon>cartas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flavio.resx">
+      <DependentUpon>flavio.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="guilherme.resx">
+      <DependentUpon>guilherme.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="matheus.resx">
+      <DependentUpon>matheus.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resultado.resx">
+      <DependentUpon>resultado.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jogadores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icone.png.ico" />
+    <None Include="Resources\cardSpadesK.png" />
+    <None Include="Resources\cardSpadesJ.png" />
+    <None Include="Resources\cardSpadesA.png" />
+    <None Include="Resources\cardSpades10.png" />
+    <None Include="Resources\cardSpades9.png" />
+    <None Include="Resources\cardSpades8.png" />
+    <None Include="Resources\cardSpades7.png" />
+    <None Include="Resources\cardSpades6.png" />
+    <None Include="Resources\cardSpades5.png" />
+    <None Include="Resources\cardSpades4.png" />
+    <None Include="Resources\cardSpades3.png" />
+    <None Include="Resources\cardSpades2.png" />
+    <None Include="Resources\cardHeartsQ.png" />
+    <None Include="Resources\cardHeartsK.png" />
+    <None Include="Resources\cardHeartsJ.png" />
+    <None Include="Resources\cardHeartsA.png" />
+    <None Include="Resources\cardHearts10.png" />
+    <None Include="Resources\cardHearts9.png" />
+    <None Include="Resources\cardHearts8.png" />
+    <None Include="Resources\cardHearts7.png" />
+    <None Include="Resources\cardHearts6.png" />
+    <None Include="Resources\cardHearts5.png" />
+    <None Include="Resources\cardHearts4.png" />
+    <None Include="Resources\cardHearts3.png" />
+    <None Include="Resources\cardHearts2.png" />
+    <None Include="Resources\cardDiamondsQ.png" />
+    <None Include="Resources\cardDiamondsK.png" />
+    <None Include="Resources\cardDiamondsJ.png" />
+    <None Include="Resources\cardDiamondsA.png" />
+    <None Include="Resources\cardDiamonds10.png" />
+    <None Include="Resources\cardDiamonds9.png" />
+    <None Include="Resources\cardDiamonds8.png" />
+    <None Include="Resources\cardDiamonds7.png" />
+    <None Include="Resources\cardDiamonds6.png" />
+    <None Include="Resources\cardDiamonds5.png" />
+    <None Include="Resources\cardDiamonds4.png" />
+    <None Include="Resources\cardDiamonds3.png" />
+    <None Include="Resources\cardDiamonds2.png" />
+    <None Include="Resources\cardClubsQ.png" />
+    <None Include="Resources\cardClubsK.png" />
+    <None Include="Resources\cardClubsJ.png" />
+    <None Include="Resources\cardClubsA.png" />
+    <None Include="Resources\cardClubs10.png" />
+    <None Include="Resources\cardClubs9.png" />
+    <None Include="Resources\cardClubs8.png" />
+    <None Include="Resources\cardClubs7.png" />
+    <None Include="Resources\cardClubs6.png" />
+    <None Include="Resources\cardClubs5.png" />
+    <None Include="Resources\cardClubs4.png" />
+    <None Include="Resources\cardClubs3.png" />
+    <None Include="Resources\cardClubs2.png" />
+    <None Include="Resources\cardSpadesQ.png" />
+    <None Include="Resources\matheus.png" />
+    <None Include="Resources\flavio.png" />
+    <None Include="Resources\guilherme.png" />
+    <None Include="Resources\carlos.png" />
+    <None Include="Resources\video_poker_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
